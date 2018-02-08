@@ -1,0 +1,38 @@
+#bio {
+background-image: url('../img/Terrence-Langston.jpg');
+height: 150px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+#education {
+background-image: url('../img/mission-bear.jpg');
+height: 150px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+#design {
+background-image: url("../img/languages.jpeg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height:150px;
+}
+
+#nav {
+
+
+}
+
+#title {
+
+  background-image: url("../img/GoldenGateBridge-001.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
