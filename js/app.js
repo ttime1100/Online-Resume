@@ -1,45 +1,19 @@
 $(document).ready( function() {
 
-/*
 
-$("#bio").mouseenter( function() {
-
-$(this).animate({height:'+=100px'});
+$('.navbar').affix({
+    offset:{
+        top: $('#header').outerHeight(),
+        bottom: $('#header').outerHeight() - 200
+    }
 });
 
-$("#bio").mouseleave( function() {
-  $(this).animate({height:"-=100px"});
+$('#sidemenu').affix({
+    offset:{
+        top: $('#header').outerHeight(),
+        bottom: $('footer').outerHeight() + 50
+    }
 });
-
-$("#education").mouseenter( function() {
-
-$(this).animate({height:'+=100px'});
-});
-
-$("#education").mouseleave( function() {
-  $(this).animate({height:"-=100px"});
-});
-
-$("#design").mouseenter( function() {
-
-$(this).animate({height:'+=100px'});
-});
-
-$("#design").mouseleave( function() {
-  $(this).animate({height:"-=100px"});
-});
-*/
-
-var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 37.774, lng: -122.419},
-          zoom: 8
-        });
-      }
-
-initMap();
-
 
 
 });

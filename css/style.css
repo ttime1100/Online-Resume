@@ -1,43 +1,38 @@
-#bio {
-background-image: url('../img/Terrence-Langston.jpg');
-height: 150px;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
+body {
+  background-image: url("../img/GoldenGateBridge-001.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
-#education {
-background-image: url('../img/mission-bear.jpg');
-height: 150px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-
+body {
+  padding-top: 54px;
 }
 
-#design {
-background-image: url("../img/languages.jpeg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-height:150px;
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
 }
 
-#nav {
 
-height:  70px;
+body {
+  padding-top: 54px;
 }
 
-#terrence {
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
 
-  margin-left: 425px;
+
+
+.pagination {
+  margin-bottom: 15px;
 }
 
 #title {
-
-  background-image: url("../img/GoldenGateBridge-001.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 550px;
+  margin-top: 500px;
 }
